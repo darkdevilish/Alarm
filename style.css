@@ -1,5 +1,19 @@
+#wrapper{
+	margin: 0;
+	padding: 0;
+}
+
 #canvas {
     background-color: #4a4a4a;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+form {
+	margin: 0 auto;
+	width: 350px;
 }
 
 input[type="number"] {
@@ -13,4 +27,17 @@ input[type="button"] {
     border: 2px solid green;
     transition: all 0.2s ease-out;
     cursor: pointer;
+}
+
+@media(max-width:360px) {
+	#canvas {
+		width: 100%;
+        height: auto;
+	}
+
+	form {
+		width: 100%;
+        height: auto;
+	}
+
 }

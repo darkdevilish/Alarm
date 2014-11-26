@@ -63,7 +63,7 @@ function clock() {
     draw(100, mp, 'white');
     draw(125, sp, 'red');
 
-    //Play Song when ON
+    //Play Song when button is ON
     if ( $('switch_button').value == "ON" ) {
         var hours = $('hours').value;
         var minutes = $('minutes').value;

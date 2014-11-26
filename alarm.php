@@ -7,13 +7,15 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div id='alarm'>
+		<div id='wrapper'>
 			<div>
 				<canvas id="canvas" width="350" height="350"></canvas>
 			</div>
-			HOURS<input id="hours" type="number" name="hour" min="0" max="24"	>
-			MINUTES<input id="minutes" type="number" name="minutes" min="0" max="59">
-			<input id="switch_button" type="button" name="switch_button" value="OFF">
+			<form>
+				HOURS<input id="hours" type="number" name="hour" min="0" max="24"	>
+				MINUTES<input id="minutes" type="number" name="minutes" min="0" max="59">
+				<input id="switch_button" type="button" name="switch_button" value="OFF">
+			</form>
 		</div>
 		<!--So canvas doesn't throw an error -->
 		<script src="alarm.js"></script>
